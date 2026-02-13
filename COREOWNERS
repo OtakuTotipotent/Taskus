@@ -1,0 +1,5 @@
+# Require reviews from maintainers for infra and core code
+
+/docs/ @OtakuTotipotent
+/app/js/ @OtakuTotipotent
+.github/workflows/ @OtakuTotipotent

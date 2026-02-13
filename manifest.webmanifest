@@ -1,0 +1,24 @@
+{
+    "name": "Taskus",
+    "short_name": "Taskus",
+    "description": "Lightweight, colorful PWA for notes & todos — privacy-first and offline capable.",
+    "start_url": ".",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#ffffff",
+    "theme_color": "#4F46E5",
+    "icons": [
+        {
+            "src": "app/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "app/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "prefer_related_applications": false
+}
