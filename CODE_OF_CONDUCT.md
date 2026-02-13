@@ -1,0 +1,2 @@
+Contributor Covenant short form
+
