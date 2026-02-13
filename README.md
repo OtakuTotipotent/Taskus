@@ -1,6 +1,6 @@
 # Taskus
 
-__`Taskus`__ — a lightweight, colorful, privacy-first PWA for notes & todos built with __plain HTML/CSS/JS__ (no frameworks).  
+__`Taskus`__ — a lightweight, colorful, privacy-first PWA for notes & todos built with __plain HTML/CSS/JS__ (no frameworks). 
 This repo contains the static, client-first version (PWA + IndexedDB). A separate `saas` branch will host the full-stack version.
 
 ## Features (MVP)
