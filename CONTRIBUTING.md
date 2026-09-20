@@ -1,7 +1,6 @@
+# `CONTRIBUTING.md`
 
 ---
-
-# `CONTRIBUTING.md`
 
 ```markdown
 # Contributing to Taskus

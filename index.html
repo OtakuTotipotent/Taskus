@@ -4,17 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TASKUS</title>
-    <link rel="stylesheet" href="app/css/themes.css">
-    <link rel="stylesheet" href="app/css/base.css">
-    <link rel="stylesheet" href="app/css/layout.css">
-    <link rel="stylesheet" href="app/css/components.css">
-
-    <script type="module" src="app/js/main.js"></script>
+    <title>Taskus | AI-Powered Tasks</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js"></script>
 </head>
 
 <body>
 
+    <header>
+        <div>
+            <h1>Taskus <span>✨</span></h1>
+            <div id="ai-status">AI: Local Engine Ready</div>
+        </div>
+        <button id="install-btn">Install App</button>
+    </header>
+
+    <main>
+        <section>
+            <textarea id="task-input" placeholder="Type a task or note in Markdown..."></textarea>
+        </section>
+
+        <section>
+            <div id="markdown-render"> All the render test comes here...</div>
+        </section>
+    </main>
+
+    <div class="fab-container">
+        <div>
+            <button id="suggest-btn">✏️</button>
+        </div>
+        <div>
+            <button id="save-btn">💾</button>
+            <button id="refine-btn">⚡</button>
+        </div>
+        <div>
+            <button id="reset-btn">🔃</button>
+        </div>
+        <div>
+            <button id="share-btn">🔗</button>
+            <button id="export-btn">📤</button>
+        </div>
+    </div>
+
+    <footer></footer>
+
+    <script type="module" src="assets/js/main.js" defer></script>
 </body>
 
 </html>
